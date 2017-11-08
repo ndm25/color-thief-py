@@ -12,7 +12,7 @@ Installation
 
 ::
 
-    $ pip install colorthief
+    $ pip install git+git://github.com/ndm25/color-thief.git
 
 Usage
 -----
@@ -36,9 +36,7 @@ API
         def __init__(self, file):
             """Create one color thief for one image.
 
-            :param file: A filename (string) or a file object. The file object
-                         must implement `read()`, `seek()`, and `tell()` methods,
-                         and be opened in binary mode.
+            :param file: A filename (string), a file object, or PIL Image.
             """
             pass
 
