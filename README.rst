@@ -12,7 +12,7 @@ Installation
 
 ::
 
-    $ pip install git+git://github.com/ndm25/color-thief.git
+    $ pip install git+git://github.com/ndm25/color-thief-py.git
 
 Usage
 -----
