@@ -36,7 +36,7 @@ class ColorThief(object):
                      A file object must implement `read()`, `seek()`, and
                      `tell()` methods, and be opened in binary mode.
         """
-        if isinstance(im, Image):
+        if isinstance(im, Image.Image):
             self.image = im
         else:
             self.image = Image.open(im)
